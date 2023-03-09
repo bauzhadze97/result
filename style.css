@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap');
+*{
+    margin: 0 auto;
+    padding: 0 auto;
+}
+/* First mobile Layout */
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Hanken Grotesk';
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 375px;
+}
+
+.container .result {
+    width: 100%;
+    height: 326px;
+    background: linear-gradient(180deg, #7755FF 0%, #6943FF 0.01%, #2F2CE9 100%);
+    box-shadow: 0px 30px 60px rgba(61, 108, 236, 0.15);
+    border-radius: 0px 0px 32px 32px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: center;
+    color: #CAC9FF;
+    padding-top: 25px;
+}
+.container .result .circle {
+    position: absolute;
+    left: 31.47%;
+    right: 31.2%;
+    top: 8.78%;
+    bottom: 73.92%;
+    background: linear-gradient(180deg, #4D21C9 0%, rgba(37, 33, 201, 0) 100%, rgba(37, 33, 201, 0) 100%);
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+}
+.container .result .circle .herotext{
+    font-family: 'Hanken Grotesk';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 56px;
+    line-height: 72px;
+    color: #FFF;
+    padding-top: 10px;
+}
+.container .result .circle .nonherotext{
+    font-family: 'Hanken Grotesk';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    color: #CAC9FF;
+    mix-blend-mode: normal;
+    opacity: 0.52;
+}
+
+.container .result .resulttext {
+    font-family: 'Hanken Grotesk';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 188px;
+    margin-bottom: 8px;
+}
+.container .result .scoredtext{
+    font-family: 'Hanken Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: center;
+    padding: 0px 57px 0px 58px;
+    color: #CAC9FF;
+}
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
