@@ -137,6 +137,11 @@ button {
     height: 56px;
     color: white;
 }
+button:hover {
+    background: linear-gradient(180deg, #7755FF 0%, #6943FF 0.01%, #2F2CE9 100%);
+    border-radius: 128px;
+    cursor: pointer;
+}
 
 
 
