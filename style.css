@@ -130,6 +130,13 @@ body{
     margin-bottom: 16px;
 
 }
+button {
+    background: #303B59;
+    border-radius: 128px;
+    width: 315px;
+    height: 56px;
+    color: white;
+}
 
 
 
