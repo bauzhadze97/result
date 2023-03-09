@@ -83,6 +83,54 @@ body{
     padding: 0px 57px 0px 58px;
     color: #CAC9FF;
 }
+.container .reitingtext{
+    font-family: 'Hanken Grotesk';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    color: #303B59;
+    padding: 24px 263px 24px 0;
+}
+
+.container .reaction {
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), #FF5555;
+    border-radius: 12px;
+    width: 315px;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+}
+.container .memory{
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), #FFB21E;
+    border-radius: 12px;
+    width: 315px;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+}
+.container .verbal {
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), #00BB8F;
+    border-radius: 12px;
+    width: 315px;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+}
+.container .visual {
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), #1125D6;
+    border-radius: 12px;
+    width: 315px;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+
+}
+
 
 
 .attribution { font-size: 11px; text-align: center; }
