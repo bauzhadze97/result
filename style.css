@@ -2,95 +2,115 @@
 *{
     margin: 0 auto;
     padding: 0 auto;
+    box-sizing: border-box;
 }
 /* First mobile Layout */
 body{
-    margin: 0;
-    padding: 0;
+    width: 100vw;
+    height: 100vh;
     font-family: 'Hanken Grotesk';
 }
 .container {
-    max-width: 375px;
+    width: 100%;
 }
-.container .gradient{
-background: linear-gradient(180deg, #7755FF 0%, #6943FF 0.01%, #2F2CE9 100%);
-box-shadow: 0px 30px 60px rgba(61, 108, 236, 0.15);
-border-radius: 0px 0px 32px 32px;
-display: flex;
-flex-direction: column;
+
+.container .shape{
+    background: linear-gradient(180deg, #7755FF 0%, #6943FF 0.01%, #2F2CE9 100%);    
+    box-shadow: 0px 30px 60px rgba(61, 108, 236, 0.15);
+    border-radius: 0px 0px 32px 32px;
+    width: 375px;
+    text-align: center;
 }
-.container .gradient h1{
+.container .shape h1{
     color: #CAC9FF;
     font-size: 18px;
     padding: 24px 0 24px 0;
 }
-.container .gradient .circle{
-background: linear-gradient(180deg, #4D21C9 0%, rgba(37, 33, 201, 0) 100%, rgba(37, 33, 201, 0) 100%);
-max-width: 140px;
-border-radius: 50%;    
+.container .shape .circle{
+    max-width: 140px;
+    background: linear-gradient(180deg, #4D21C9 0%, rgba(37, 33, 201, 0) 100%, rgba(37, 33, 201, 0) 100%);
+    border-radius: 50%;
 }
-.container .gradient .circle h2{
+.container .shape .circle h2{
     color: #FFFFFF;
     font-size: 56px;
-    padding: 25px 38px 0 39px;
+    padding: 25px 0 0 0;
 }
-.container .gradient .circle h4{
+.container .shape .circle h3{
     color: #CAC9FF;
-    font-size: 16px;
-    opacity: 0.52;
-    padding: 0 47px 22px 47px;
+    opacity: 0.5;
+    padding: 0 0 22px 0;
 }
-.container .gradient h3{
-    color: #FFFFFF;
+.container .shape h4{
     font-size: 24px;
-    padding: 24px 0 8px 0;
+    color: #FFFFFF;
+    padding: 24px 0 0 0;
 }
-.container .gradient p{
+.container .shape p{
+    font-size: 16px;
     color: #CAC9FF;
-    font-size: 16px;
-    text-align: center;
-    font-weight:500;
-    padding: 0 57px 40px 57px;
+    padding: 8px 50px 40px 50px;
 }
-.container  h1{
-    font-size: 18px;
-    font-weight: 700;
-    padding: 24px 0 24px 32px;
+.container .nonshape{
+    width: 375px;
 }
-.container .cards{
-    max-width: 315px;
+.container .nonshape h1{
     display: flex;
-    flex-direction:row;
+    justify-content:flex-start;
     font-size: 16px;
+    padding:24px 0 24px 32px;
+}
+.container .nonshape .cards{
+    width: 315px;
+    display: flex;
     border-radius: 12px;
     margin-bottom: 16px;
 }
-.container .cards img, h4, h5{
-    padding: 19.5px 0 21px 20px;
+.container .nonshape .cards h2,h3{
+    font-size: 16px;
+    padding: 17px 0 17px 0;
+    font-weight: 700;
 }
-.reaction{
-   background: linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), #FF5555;
+.container .nonshape .cards h3 strong{
+    opacity: 0.5;
 }
-.memory{
+.reaction {
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), #FF5555;
+}
+.memory {
     background: linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), #FFB21E;
 }
-.verbal{
+.verbal {
     background: linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), #00BB8F;
 }
 .visual {
     background: linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), #1125D6;
 }
+.reaction h2{
+    color: #FF5555;
+    font-weight: 500;
+}
+.memory h2{
+    font-weight: 500;
+    color: #FFB21E;
+}
+.verbal h2{
+    font-weight: 500;
+    color: #00BB8F;
+}
+.visual h2{
+    font-weight: 500;
+    color: #1125D6;
+}
 button {
     display: flex;
+    margin-top: 8px;
+    width: 315px;
+    justify-content: center;
+    padding: 17px 0 16px 0;
     background: #303B59;
     border-radius: 128px;
-    max-width: 315px;
-    width: 100%;
-    justify-content: center;
-    padding:17px 0 16px 0;
-    font-size: 18px;
-    font-weight: 700;
-    color: #FFFFFF;
+    color:#FFFFFF;
     cursor: pointer;
 }
 button:hover{
@@ -98,5 +118,5 @@ button:hover{
 }
 
 
-.attribution { font-size: 11px; text-align: center; }
+.attribution {  font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
