@@ -120,8 +120,62 @@ button:hover{
 }
 
 @media  screen and (min-width:1440px){
-    
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #ECF2FF;
+    }
+    .container {
+        width: 736px;
+        display: flex;
+        background-color: #FFFFFF;
+    }
+    .container .shape{
+    border-radius: 32px;
+    width: 368px;
+    text-align: center;
+    }
+    .container .shape h1{
+        font-size: 24px;
+        padding: 38px 0 35px 0;
+    }
+    .container .shape .circle{
+        max-width: 200px;
+    }
+    .container .shape .circle h2{
+        font-size: 72px;
+        padding: 55px 0 0 0;
+    }
+    .container .shape .circle h3{
+        font-size: 18px;
+        padding: 0 0 46px 0;
+    }
+    .container .shape h4{
+        font-size: 32px;
+        padding: 28px 0 0 0;
+    }
+    .container .shape p{
+        font-size: 18px;
+        padding: 14px 54px 55px 54px;
+    }
+    .container .nonshape{
+        width: 368px;
+        border-radius: 32px;
+    }
+    .container .nonshape h1{
+        font-size: 24px;
+        padding:38px 0 24px 40px;
+    }
+    .container .nonshape .cards{
+        width: 288px;
+    }
+    .container .nonshape .cards h2,h3{
+        font-size: 18px;
+    }
+    button {
+        margin-top: 25px;
+        width: 288px;
+    }
 }
 
-.attribution {  font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
